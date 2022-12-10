@@ -29,6 +29,7 @@ window.addEventListener("zuri-plugin-load", () => {
     );
     if (!registeredAppsName.length) {
       allPlugins.forEach(plugin => {
+        console.log("i actually got here", plugin);
         registerApplication({
           name: plugin.name,
           app: () => System.import(`@zuri/${plugin.name}`),

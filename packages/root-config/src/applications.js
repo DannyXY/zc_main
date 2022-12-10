@@ -20,7 +20,7 @@ export const allPlugins = [
   {
     title: "chessboard",
     name: `${PluginImportPathPre}chessboard`,
-    pluginPath: `${PluginAppPathPre}chess`
+    pluginPath: `${PluginAppPathPre}chessboard`
   },
   {
     title: "music",

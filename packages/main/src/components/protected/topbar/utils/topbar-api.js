@@ -2,7 +2,10 @@ import axios from "axios";
 
 // const user = JSON.parse(sessionStorage.getItem("user"))
 const $http = axios.create({
-  timeout: 30000
+  timeout: 30000,
+  headers: {
+    "Access-Control-Allow-Origin": "*"
+  }
   // baseURL: "https://"
 });
 
@@ -40,14 +43,14 @@ export const plugins = [
     name: "chess",
     apiCall: (org_id, member_id, query, filter = null) => {
       return $http.get(
-        `https://chess.zuri.chat/api/v1/search/${org_id}/${member_id}?q=${query}${
+        `http://127.0.0.1:22664/api/v1/search/${org_id}/${member_id}?q=${query}${
           !filter ? "" : `&filter=${filter}`
         }`
       );
     }
     // filterCall: (org_id, member_id) =>
     //   $http.get(
-    //     `https://chess.zuri.chat/api/v1/search-suggestions/${org_id}/${member_id}`
+    //     `http://127.0.0.1:22664/api/v1/search-suggestions/${org_id}/${member_id}`
     //   )
   },
 

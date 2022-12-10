@@ -469,10 +469,10 @@ export const dummySidebar = {
           developer_name: "Team Tesla",
           icon_url: "",
           install_count: 0,
-          install_url: "https://chess.zuri.chat/",
+          install_url: "http://127.0.0.1:22664/install",
           name: "Chess Plugin",
-          sidebar_url: "https://chess.zuri.chat/api/v1/sidebar",
-          template_url: "https://chess.zuri.chat/",
+          sidebar_url: "http://127.0.0.1:22664/api/v1/sidebar",
+          template_url: "http://localhost:5000/",
           updated_at:
             "2021-09-14 22:11:24.661568747 +0200 CEST m=+120850.001188561"
         },
@@ -708,7 +708,7 @@ export const dummySidebar = {
           install_url: "plugin.zuri.chat/install",
           name: "zuri_chess",
           sidebar_url:
-            "https://chess.zuri.chat/mysidebar?userId=1&org=1@token=1",
+            "http://127.0.0.1:22664/mysidebar?userId=1&org=1@token=1",
           template_url: "plugin.zuri.chat/myplugin",
           updated_at:
             "2021-09-18 13:10:13.991961505 +0200 CEST m=+7811.519777543"
@@ -735,10 +735,10 @@ export const dummySidebar = {
           developer_name: "Team Tesla",
           icon_url: "",
           install_count: 0,
-          install_url: "https://chess.zuri.chat/",
+          install_url: "http://127.0.0.1:22664/",
           name: "Chess Plugin",
-          sidebar_url: "https://chess.zuri.chat/api/v1/sidebar",
-          template_url: "https://chess.zuri.chat/",
+          sidebar_url: "http://127.0.0.1:22664/api/v1/sidebar",
+          template_url: "http://127.0.0.1:22664/",
           updated_at:
             "2021-09-18 13:44:18.924807825 +0200 CEST m=+9856.452623865"
         },
@@ -826,7 +826,7 @@ export const dummySidebar = {
           install_url: "plugin.zuri.chat/install",
           name: "zuri_chess",
           sidebar_url:
-            "https://chess.zuri.chat/mysidebar?userId=1&org=1@token=1",
+            "http://127.0.0.1:22664/mysidebar?userId=1&org=1@token=1",
           template_url: "plugin.zuri.chat/myplugin",
           updated_at:
             "2021-09-21 00:04:21.743679893 +0200 CEST m=+104385.733614124"
@@ -862,9 +862,9 @@ export const dummySidebar = {
             "https://res.cloudinary.com/kyloren/image/upload/v1631878727/Chess%20MarketPlace/Watch_qgc9dz.png"
           ],
           install_count: 0,
-          install_url: "http://chesss.zuri.chat/install",
+          install_url: "http://127.0.0.1:22664/install",
           name: "Chess Plugin",
-          sidebar_url: "http://chess.zuri.chat/api/v1/sidebar",
+          sidebar_url: "http://127.0.0.1:22664/api/v1/sidebar",
           tags: null,
           template_url: "http://chess.zuri.chat/",
           updated_at:
