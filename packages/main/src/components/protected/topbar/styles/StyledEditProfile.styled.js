@@ -59,7 +59,7 @@ export const StyledProfileWrapper = styled.section`
       }
       .input-group {
         width: 100%;
-        margin-bottom: 1rem;
+        margin-bottom: 0.6rem;
         &.phone,
         &.timezone {
           flex-direction: column;
@@ -70,6 +70,7 @@ export const StyledProfileWrapper = styled.section`
             width: 100%;
             border: 1px solid #a1a1a1;
             border-radius: 4px;
+            padding: 2px 0.5rem;
             &:hover {
               border: 1px solid #00b87c;
               transition: border 0.25s ease-in-out;
@@ -85,8 +86,13 @@ export const StyledProfileWrapper = styled.section`
               width: 100%;
             }
             .pref {
-              width: 72px;
+              width: auto;
               font-size: 15px;
+              margin-right: 5px;
+              color: #696969;
+            }
+            .pref option {
+              text-align: center;
             }
           }
           .time-select {
@@ -116,7 +122,7 @@ export const StyledProfileWrapper = styled.section`
           width: 100%;
           border: 1px solid #a1a1a1;
           margin: 6px 0;
-          padding: 7px 1rem;
+          padding: 8px 1rem;
           font-size: 15px;
           outline: none;
           background: none;
@@ -129,6 +135,15 @@ export const StyledProfileWrapper = styled.section`
             border: 1px solid #00b87c;
             transition: border 0.25s ease-in-out;
           }
+        }
+        .time-container {
+          padding: 2px 1rem;
+        }
+        .input:-webkit-autofill,
+        .input:-webkit-autofill:hover,
+        .input:-webkit-autofill:focus,
+        .input:-webkit-autofill:active {
+          -webkit-box-shadow: 0 0 0 30px white inset !important;
         }
         .PhoneInput {
           display: flex;
